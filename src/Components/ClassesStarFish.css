@@ -1,0 +1,7 @@
+.bgColor{
+    background-color: rgb(2, 2, 87) ;
+}
+
+.hoverColor1:hover {
+    color: rgb(217, 160, 3, 0.897) !important;
+}

@@ -1,0 +1,13 @@
+.aboutFonts {
+    font-family: "Roboto Slab", serif;
+    
+}
+
+.colorText {
+    color: rgba(255, 153, 0, 0.793);
+    text-decoration: none;
+}
+
+.fontSize {
+    font-size: 15px;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AboutStarfish from './Components/AboutStarfish';
+import Bottom from './Components/Bottom';
+import ClasssesStarfish from './Components/ClasssesStarfish';
+import LastBottom from './Components/LastBottom';
+import MidBar from './Components/MidBar';
+import NavBar from './Components/NavBar';
+import Paragraph from './Components/Paragraph';
+import StarfishService from './Components/StarfishService';
+import VideoAds from './Components/VideoAds';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <NavBar/>
+     <VideoAds/>
+     <AboutStarfish/>
+     <MidBar/>
+     <StarfishService/>
+     <ClasssesStarfish/>
+     <Paragraph/>
+     <Bottom/>
+     <LastBottom/>
+   
     </div>
   );
 }

@@ -1,0 +1,21 @@
+
+.fontDesign {
+    font-family: "Roboto Slab", serif;
+    
+}
+
+.fontsColor{
+
+ color: rgb(2, 2, 87) !important;
+
+}
+
+.fontsColor:hover {
+    color: rgba(217, 160, 3, 0.897) !important;
+}
+
+
+.logoSize {
+    width: 200px;
+    height: 100px;
+}
